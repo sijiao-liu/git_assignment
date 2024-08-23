@@ -51,3 +51,20 @@ Note that I will be using the Git Assignment as an example
 
 
 ## d. Describe the steps to add a collaborator to a repository (share write permissions)
+1. Click on the the repository your want to add collaborator and share write permissions from your profile
+2. In the top-right click on Settings, if you cannot see Settings, you can find it from the drop down menu (...)
+3. Click on _Collaborators_ tab which you can find under _Access_ section
+4. Click the **_Add People_** button under **_Manage Access_** section, you can search people by username/full name/email
+
+
+## e. What is the difference between **_git_** and **_GitHub_**?
+
+
+## f. What does **_git diff_** do?
+
+
+## g. What is the **_main_** branch?
+
+
+## h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the **_main_** branch?
+
