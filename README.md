@@ -44,47 +44,47 @@ Note that I will be using the Git Assignment as an example
 7. Click on the button **_Create pull request_**
 
 #### Method 2
-8. Click on **_Pull requests_** tab
-9. Under the **_Comparing changes_** section, make sure you choose the right base (i.e. main) and compare (i.e. assignment), then the button **_Create pull request_** will become green and clickable.
-10. Click on the **_Create pull request_** button.
+8. Click on `Pull requests` tab
+9. Under the `Comparing changes` section, make sure you choose the right base (i.e. main) and compare (i.e. assignment), then the button `Create pull request` will become green and clickable.
+10. Click on the `Create pull request` button.
 11. Apply step **_5-7 from Method 1_**.
 
 
 ## d. Describe the steps to add a collaborator to a repository (share write permissions)
-1. Click on the the repository your want to add collaborator and share write permissions from your profile.
-2. In the top-right click on Settings, if you cannot see Settings, you can find it from the drop down menu (...).
-3. Click on _Collaborators_ tab which you can find under _Access_ section
-4. Click the **_Add People_** button under **_Manage Access_** section, you can search people by username/full name/email.
-5. After select the existing account, the _Add <git username> to this repository_ button will turn green and clickable. 
-6. Click on the green button, in this way GitHub will send a notification email to the desired collaborator and the invitation will also shown in the message box of the desired collaborator. 
-7. I suppose after the desired collaborator accept the invitation, you can select the type of access under **_Manage Access_** section mentioned in step **_4_**. However, I have tried this personally with one of the Learning Supports, unfortunatly I don't see the option of provide the access. I supposed that **_share the access type_** option is not avaliable for the GitHub free version.
+1. In your profile, click on the the repository/project your want to add collaborator and share write permissions.
+2. In the top-right of each repository/project click on `Settings`. If you cannot see it, you can find it from the drop down menu (`...`).
+3. Click on `Collaborators` tab which you can find under `Access` section
+4. Click the `Add People` button under `Manage Access` section, you can search people by their username/full name/email.
+5. After select the existing account, the `Add <git username> to this repository` button will turn green and clickable. 
+6. Click on the green button, in this way GitHub will send a notification email to the desired collaborator along with an invitation shown in the their `notification` centre. 
+7. I suppose after the desired collaborator accept the invitation, you can select the type of access under `Manage Access` section mentioned in step **_4_**. However, I have tried this personally with one of the Learning Supports, unfortunatly I don't see the option of provide the access. I supposed that **_share the access type_** option is not avaliable for the GitHub free version.
 
 
 ## e. What is the difference between **_git_** and **_GitHub_**?
 ### Git vs. GitHub
 |Git|GitHub|
-|----------|
+|---|------|
 |a software installed locally|a service hosted in the cloud|
-|----------|
+|---|------|
 |focused on version control and code sharing|focused on centralized source code hosting|
-|----------|
+|---|------|
 |primarily a command-line tool|a graphical interface administered through the web|
-|----------|
+|---|------|
 |no user management features|built-in user management|
-|----------|
+|---|------|
 |open source licensed|included both free and pay-for-use tiers|
 
 
 ## f. What does **_git diff_** do?
-The _git diff_ command help you see, compare, and understand changes in your project by comparing what is in your working directory to what is in your staging area.  
-For example, if you've made changes to your files without running _git add_, you'll see the comparison. Otherwise, nothing will be shown if there are no differences.  
+The `git diff` command help you see, compare, and understand changes in your project by comparing what is in your working directory to what is in your staging area.  
+_For example,_ if you've made changes to your files without running `git add`, you'll see the comparison. Otherwise, nothing will be shown if there are no differences.  
 
 
 ## g. What is the **_main_** branch?
-The _main_ branch is the official working version of any git-versioned GitHub project.  
-N.B. Don't mess up with the _main_ branch. If you ever want to make some changes to _main_, do it on anther branch and have it review first before merging the changes to _main_.
+The `main` branch is the official working version of any git-versioned GitHub project.  
+_N.B._ Don't mess with the `main` branch. If you ever want to make some changes to `main`, do it on anther branch and have it reviewed and/or discussed first before merging the changes to `main`.
 
 
 ## h. Besides our initial commit if it is a new repository, should we push our changes directly into the **_main_** branch?
-No, we shouldn't push our changes into the _main_ branch directly.
+No, we shouldn't push our changes into the `main` branch directly.
 
