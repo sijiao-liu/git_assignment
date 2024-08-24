@@ -3,51 +3,45 @@
 ## a. What is an **_issue_**?
 GitHub Issues are items you can create in repository to plan, discuss and track work. 
 - Issues are simple to create and flexible to suit a variaty of scenarios. 
-- You can use issues to track work, give or receive feedback, collaborate on ideas or tasks, and efficiently communicate with others.
-(Ref: [About issues - GitHub Docs] (https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues "GitHub Doc/GitHub Issues/Issues")
+- You can use issues to track work, give or receive feedback, collaborate on ideas or tasks, and efficiently communicate with others.  
 
 Issues are used to track todos, bugs, feature requests, and more. 
 - As issues are created, they'll appear here in a searchable and filterable list. 
-(Ref: description given by the issues tab in the GitHub repository created)
 
 
 ## b. What is a **_pull request_**?
 A pull request is a proposal to merge a set of changes from one branch into another.  
 - In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
-- Pull requests display the differences, or diffs, between the content in the source branch and the content in the target branch.
-(Ref: [About pull request - GitHub Docs] (https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests "GitHub Doc/Pull requests/Collaborate with pull requests/Propose changes")
+- Pull requests display the differences, or diffs, between the content in the source branch and the content in the target branch.  
 
 Pull requests help you collaborate on code with other people.
 - As pull requests are created, they will appear in a searable and filterable list.
-(Ref: description given by the Pull requests tab in the GitHub repository created)
 
 
 ## c. Describe the steps to **_open a pull request_**?
-Note that I will be using the Git Assignment as an example
-1. In your main repository  
-    (i.e. git_assignment: https://github.com/sijiao-liu/git_assignment)
+I will be using the Git Assignment as an example in the following:
+1. In your `main` repository.
 #### Method 1
-2. Switch to the branch you created locally using the dropdown menu  
-    (i.e assignment: https://github.com/sijiao-liu/git_assignment/tree/assignment)
-3. If you see your recent push on top of your branch repository (i.e. assignment), then click on `Compare & pull request` button.
-4. Make sure you choose the right base (i.e. main) and compare (i.e. assignment)
+2. Switch to the branch `assignment` you created locally using the drop down menu.
+3. If you see your recent push on top of your branch, then click on `Compare & pull request` button.
+4. Make sure you choose the right base `main` and compare `assignment`.
 5. Add a title: highlight the main point of this request.  
-    TITLE: UofT-DSI | Module Name - Assignment assignment number (i.e. **_UofT-DSI | git - homework 1_**)
+    (i.e. **_UofT-DSI | git - assignment 1_**)
 6. Add a description: explain your thought process. For example,
     * What changes are you trying to make? (e.g. Adding or removing code, refactoring existing code, adding reports)
     * What did you learn from the changes you have made?
     * Was there another approach you were thinking about making? If so, what approach(es) were you thinking of?
     * Were there any challenges? If so, what issue(s) did you face? How did you overcome it?
     * How were these changes tested?
-    * A reference to a related issue in your repository (if applicable)
-    * Checklist: - [ ] I can confirm that my changes are working as intended
+    * A reference to a related issue in your repository. (if applicable)
+    * Checklist: [ ] I can confirm that my changes are working as intended.
 7. Click on `Create pull request` button.
 
 #### Method 2
-8. Click on `Pull requests` tab
-9. Under the `Comparing changes` section, make sure you choose the right base (i.e. main) and compare (i.e. assignment), then the button `Create pull request` will become green and clickable.
-10. Click on the `Create pull request` button.
-11. Apply step **_5-7 from Method 1_**.
+8. Click on `Pull requests` tab.
+9. Under the `Comparing changes` section, make sure you choose the right base `main` and compare `assignment`, then the button `Create pull request` will become green and clickable.
+10. Click on `Create pull request` button.
+11. Apply **_step 5-7 from Method 1_**.
 
 
 ## d. Describe the steps to add a collaborator to a repository (share write permissions)
@@ -57,7 +51,7 @@ Note that I will be using the Git Assignment as an example
 4. Click the `Add People` button under `Manage Access` section, you can search people by their username/full name/email.
 5. After select the existing account, the `Add <git username> to this repository` button will turn green and become clickable. 
 6. Click on the green button, in this way GitHub will send a notification email to the desired collaborator along with an invitation shown in the their `notification` centre. 
-7. I suppose after the desired collaborator accept the invitation, you can select the type of access under `Manage Access` section mentioned in step **_4_**.  
+7. I suppose after the desired collaborator accept the invitation, you can select the type of access under `Manage Access` section mentioned in **_step 4_**.  
 However, I have tried this personally with one of the Learning Supports, unfortunatly I don't see the option of provide the access. I supposed that **_share the access type_** option is not avaliable for the GitHub free version.
 
 
@@ -65,6 +59,7 @@ However, I have tried this personally with one of the Learning Supports, unfortu
 ### Git vs. GitHub
 Below is a table shown the differences between Git and GitHub.  
 |Git|GitHub|
+|---|------|
 |a software installed locally|a service hosted in the cloud|
 |focused on version control and code sharing|focused on centralized source code hosting|
 |primarily a command-line tool|a graphical interface administered through the web|
