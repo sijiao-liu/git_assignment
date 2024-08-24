@@ -51,20 +51,40 @@ Note that I will be using the Git Assignment as an example
 
 
 ## d. Describe the steps to add a collaborator to a repository (share write permissions)
-1. Click on the the repository your want to add collaborator and share write permissions from your profile
-2. In the top-right click on Settings, if you cannot see Settings, you can find it from the drop down menu (...)
+1. Click on the the repository your want to add collaborator and share write permissions from your profile.
+2. In the top-right click on Settings, if you cannot see Settings, you can find it from the drop down menu (...).
 3. Click on _Collaborators_ tab which you can find under _Access_ section
-4. Click the **_Add People_** button under **_Manage Access_** section, you can search people by username/full name/email
+4. Click the **_Add People_** button under **_Manage Access_** section, you can search people by username/full name/email.
+5. After select the existing account, the _Add <git username> to this repository_ button will turn green and clickable. 
+6. Click on the green button, in this way GitHub will send a notification email to the desired collaborator and the invitation will also shown in the message box of the desired collaborator. 
+7. I suppose after the desired collaborator accept the invitation, you can select the type of access under **_Manage Access_** section mentioned in step **_4_**. However, I have tried this personally with one of the Learning Supports, unfortunatly I don't see the option of provide the access. I supposed that **_share the access type_** option is not avaliable for the GitHub free version.
 
 
 ## e. What is the difference between **_git_** and **_GitHub_**?
+### Git vs. GitHub
+|Git|GitHub|
+|----------|
+|a software installed locally|a service hosted in the cloud|
+|----------|
+|focused on version control and code sharing|focused on centralized source code hosting|
+|----------|
+|primarily a command-line tool|a graphical interface administered through the web|
+|----------|
+|no user management features|built-in user management|
+|----------|
+|open source licensed|included both free and pay-for-use tiers|
 
 
 ## f. What does **_git diff_** do?
+The _git diff_ command help you see, compare, and understand changes in your project by comparing what is in your working directory to what is in your staging area.  
+For example, if you've made changes to your files without running _git add_, you'll see the comparison. Otherwise, nothing will be shown if there are no differences.  
 
 
 ## g. What is the **_main_** branch?
+The _main_ branch is the official working version of any git-versioned GitHub project.  
+N.B. Don't mess up with the _main_ branch. If you ever want to make some changes to _main_, do it on anther branch and have it review first before merging the changes to _main_.
 
 
-## h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the **_main_** branch?
+## h. Besides our initial commit if it is a new repository, should we push our changes directly into the **_main_** branch?
+No, we shouldn't push our changes into the _main_ branch directly.
 
