@@ -1,82 +1,71 @@
 # Git Assignment - sijiao-liu  
 
 ## a. What is an **_issue_**?
-GitHub Issues are items you can create in repository to plan, discuss and track work. 
-- Issues are simple to create and flexible to suit a variaty of scenarios. 
-- You can use issues to track work, give or receive feedback, collaborate on ideas or tasks, and efficiently communicate with others.  
-
-Issues are used to track todos, bugs, feature requests, and more. 
-- As issues are created, they'll appear here in a searchable and filterable list. 
+An `issue` in GitHub is a tool used to plan, discuss, and track work within a repository.  
+- It helps manage tasks, track bugs, request features, and facilitate communication and collaboration.  
+- Issues are easy to create, flexible, and can be organized in a searchable and filterable list.  
 
 
 ## b. What is a **_pull request_**?
-A pull request is a proposal to merge a set of changes from one branch into another.  
-- In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
-- Pull requests display the differences, or diffs, between the content in the source branch and the content in the target branch.  
-
-Pull requests help you collaborate on code with other people.
-- As pull requests are created, they will appear in a searable and filterable list.
+A `pull request` in GitHub is a proposal to merge changes from one branch into another.  
+- It allows collaborators to review, discuss, and approve changes before they are integrated into the main codebase. 
+- Pull requests also show the differences between the source and target branches and are listed in a searchable and filterable format once created.
 
 
 ## c. Describe the steps to **_open a pull request_**?
-I will be using the Git Assignment as an example in the following:
-1. In your `main` repository.
-#### Method 1
-2. Switch to the branch `assignment` you created locally using the drop down menu.
-3. If you see your recent push on top of your branch, then click on `Compare & pull request` button.
-4. Make sure you choose the right base `main` and compare `assignment`.
-5. Add a title: highlight the main point of this request.  
-    (i.e. **_UofT-DSI | git - assignment 1_**)
-6. Add a description: explain your thought process. For example,
-    * What changes are you trying to make? (e.g. Adding or removing code, refactoring existing code, adding reports)
-    * What did you learn from the changes you have made?
-    * Was there another approach you were thinking about making? If so, what approach(es) were you thinking of?
-    * Were there any challenges? If so, what issue(s) did you face? How did you overcome it?
-    * How were these changes tested?
-    * A reference to a related issue in your repository. (if applicable)
-    * Checklist: [ ] I can confirm that my changes are working as intended.
-7. Click on `Create pull request` button.
+To open a pull request in GitHub, follow these steps:  
 
-#### Method 2
-8. Click on `Pull requests` tab.
-9. Under the `Comparing changes` section, make sure you choose the right base `main` and compare `assignment`, then the button `Create pull request` will become green and clickable.
-10. Click on `Create pull request` button.
-11. Apply **_step 5-7 from Method 1_**.
+1. Switch to the branch you want to merge (e.g., assignment) using the drop-down menu in your repository.  
+
+### Method 1
+2. Click the `Compare & pull request` button if you see your recent push on top of your branch.
+3. Ensure the _base_ branch is `main` and the _compare_ branch is `assignment`.
+4. Add a title and description for your pull request.
+5. Click `Create pull request`.
+
+### Method 2
+6. Go to the `Pull requests` tab.
+7. In the `Comparing changes` section, select `main` as the _base_ branch and `assignment` as the _compare_ branch.
+8. Click `Create pull request` once it becomes clickable.
+9. Add a title and description for your pull request.
+10. Click `Create pull request`.
 
 
 ## d. Describe the steps to add a collaborator to a repository (share write permissions)
-1. In your profile, click on the the repository/project your want to add collaborator and share write permissions.
-2. In the top-right of each repository/project click on `Settings`. If you cannot see it, you can find it from the drop down menu (`...`).
-3. Click on `Collaborators` tab which you can find under `Access` section from the left panel.
-4. Click the `Add People` button under `Manage Access` section, you can search people by their username/full name/email.
-5. After select the existing account, the `Add <git username> to this repository` button will turn green and become clickable. 
-6. Click on the green button, in this way GitHub will send a notification email to the desired collaborator along with an invitation shown in the their `notification` centre. 
-7. I suppose after the desired collaborator accept the invitation, you can select the type of access under `Manage Access` section mentioned in **_step 4_**.  
-However, I have tried this personally with one of the Learning Supports, unfortunatly I don't see the option of provide the access. I supposed that **_share the access type_** option is not avaliable for the GitHub free version.
+To add a collaborator with written permissions to a repository, follow these steps:  
+
+1. Go to the repository you want to modify from your profile.
+2. Click `Settings` in the top-right corner of the repository. If not visible, find it under the `...` menu.
+3. Select the `Collaborators` tab under the `Access` section in the left panel.
+4. Click `Add People` under the `Manage Access` section and search for the person by username, full name, or email.
+5. After selecting the user, click the green `Add <username> to this repository` button.
+6. GitHub will send an email invitation to the collaborator.
+7. Once the collaborator accepts the invitation, you can set their access level under Manage Access.  _Note:_ Access levels might not be available on free GitHub plans.
 
 
 ## e. What is the difference between **_git_** and **_GitHub_**?
-### Git vs. GitHub
-Below is a table shown the differences between Git and GitHub.  
+Below is a table shown the differences between Git and GitHub:  
+
 |Git|GitHub|
 |---|------|
-|a software installed locally|a service hosted in the cloud|
-|focused on version control and code sharing|focused on centralized source code hosting|
-|primarily a command-line tool|a graphical interface administered through the web|
+|a version control software installed locally|a cloud-based service that hosts repositories|
 |no user management features|built-in user management|
+|focused on managing code versions and changes|focused on centralized source and collaborative code hosting|
+|a command-line** tool|a web-based interface|
 |open source licensed|included both free and pay-for-use tiers|
 
 
 ## f. What does **_git diff_** do?
-The `git diff` command help you see, compare, and understand changes in your project by comparing what is in your working directory to what is in your staging area.  
-_For example,_ if you've made changes to your files without running `git add`, you'll see the comparison. Otherwise, nothing will be shown if there are no differences.  
+The `git diff` command shows the differences between your working directory and the staging area.  
+- It helps you compare and understand changes that have been made to files before they are staged. 
+- If no changes are present, it will show no differences.
 
 
-## g. What is the **_main_** branch?
-The `main` branch is the official working version of any git-versioned GitHub project.  
-_N.B._ Don't mess with the `main` branch. If you ever want to make some changes to `main`, do it on anther branch and have it reviewed and/or discussed first before merging the changes to `main`.
+## g. What is the **_main_** branch?  
+The `main` branch is the primary branch of a GitHub project, representing the official working version. 
+- Changes to `main` should be made in separate branches, reviewed, and discussed before merging.
 
 
 ## h. Besides our initial commit if it is a new repository, should we push our changes directly into the **_main_** branch?
-No, we shouldn't push our changes into the `main` branch directly.
+No, you should avoid pushing changes directly into the `main` branch besides the initial commit of a new repository. Instead, use separate branches for making changes, and merge them into `main` after review and testing.
 
